@@ -1,0 +1,16 @@
+diff --git a/patch.cabal b/patch.cabal
+index d6b9162..3b7a9d2 100644
+--- a/patch.cabal
++++ b/patch.cabal
+@@ -54,9 +54,9 @@ library
+   ghc-options: -Wall -fwarn-redundant-constraints -fwarn-tabs
+ 
+   if flag(split-these)
+-    build-depends: these >= 1 && <1.1
++    build-depends: these
+                  , semialign >=1 && <1.2
+-                 , monoidal-containers >= 0.6 && < 0.7
++                 , monoidal-containers
+   else
+     build-depends: these >= 0.4 && <0.9
+                  , monoidal-containers == 0.4.0.0

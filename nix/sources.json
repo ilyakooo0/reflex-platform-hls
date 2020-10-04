@@ -1,0 +1,62 @@
+{
+    "brittany": {
+        "branch": "master",
+        "description": "haskell source code formatter",
+        "homepage": "",
+        "owner": "bubba",
+        "repo": "brittany",
+        "rev": "7d68b1cc3809e2921756c3a1bf67a83e82c21b0a",
+        "sha256": "13b6gd0k4lgnkdlrhmw87aq1v57plvr3s2yqf15yqrpl4fh7gsv7",
+        "type": "tarball",
+        "url": "https://github.com/bubba/brittany/archive/7d68b1cc3809e2921756c3a1bf67a83e82c21b0a.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "ghcide": {
+        "branch": "0bfce3114c28bd00f7bf5729c32ec0f23a8d8854",
+        "description": "A library for building Haskell IDE tooling",
+        "homepage": "",
+        "owner": "haskell",
+        "repo": "ghcide",
+        "rev": "0bfce3114c28bd00f7bf5729c32ec0f23a8d8854",
+        "sha256": "0zv14mvfhmwwkhyzkr38qpvyffa8ywzp41lr1k55pbrc5b10fjr6",
+        "type": "tarball",
+        "url": "https://github.com/haskell/ghcide/archive/0bfce3114c28bd00f7bf5729c32ec0f23a8d8854.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "haskell-language-server": {
+        "branch": "master",
+        "description": "Integration point for ghcide and haskell-ide-engine. One IDE to rule them all.",
+        "homepage": "",
+        "owner": "haskell",
+        "repo": "haskell-language-server",
+        "rev": "14e71db4a34cda595cba9ba5f9ab4a1422dd2744",
+        "sha256": "17d124jy6gzpiqvw0r8f0fbj4g3jgdqrv63a3l52f52y6h75k7h9",
+        "type": "tarball",
+        "url": "https://github.com/haskell/haskell-language-server/archive/14e71db4a34cda595cba9ba5f9ab4a1422dd2744.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "29ddaaf4e099c3ac0647f5b652469dfc79cd3b53",
+        "sha256": "1va6myp07gkspgxfch8z3rs9nyvys6jmgzkys6a2c4j09qxp1bs0",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/29ddaaf4e099c3ac0647f5b652469dfc79cd3b53.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "reflex-platform": {
+        "branch": "develop",
+        "description": "A curated package set and set of tools that let you build Haskell packages so they can run on a variety of platforms. reflex-platform is built on top of the nix package manager.",
+        "homepage": "https://reflex-frp.org",
+        "owner": "reflex-frp",
+        "repo": "reflex-platform",
+        "rev": "df0bdcca5eb2a3236ec0496e4430d91876b29cf5",
+        "sha256": "1ja3vkq9px8f9iyiazq44mamaahgiphi9l236pvzbl5jvhi5c4qr",
+        "type": "tarball",
+        "url": "https://github.com/reflex-frp/reflex-platform/archive/df0bdcca5eb2a3236ec0496e4430d91876b29cf5.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}

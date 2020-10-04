@@ -1,0 +1,13 @@
+diff --git a/jsaddle-wkwebview.cabal b/jsaddle-wkwebview.cabal
+index 93cbac6..49c1f84 100644
+--- a/jsaddle-wkwebview.cabal
++++ b/jsaddle-wkwebview.cabal
+@@ -35,7 +35,7 @@ library
+         hs-source-dirs: src-ghcjs
+     else
+         build-depends:
+-            aeson >=0.8.0.2 && <1.5,
++            aeson >=0.8.0.2 && <1.6,
+             bytestring >=0.10.6.0 && <0.11,
+             directory,
+             jsaddle >= 0.9.4.0 && <0.10,

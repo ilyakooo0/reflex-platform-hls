@@ -1,0 +1,26 @@
+diff --git a/reflex-dom-core.cabal b/reflex-dom-core.cabal
+index c62eba9..3a0f1cb 100644
+--- a/reflex-dom-core.cabal
++++ b/reflex-dom-core.cabal
+@@ -53,7 +53,7 @@ flag split-these
+ library
+   hs-source-dirs: src
+   build-depends:
+-    aeson >= 0.8 && < 1.5,
++    aeson >= 0.8 && < 1.6,
+     base >= 4.7 && < 4.14,
+     bifunctors >= 4.2 && < 6,
+     bimap >= 0.3 && < 0.4,
+@@ -100,10 +100,10 @@ library
+   if flag(split-these)
+     build-depends:
+       semialign >= 1 && < 1.2,
+-      these >= 1 && < 1.1
++      these
+   else
+     build-depends:
+-      these >= 0.4 && < 0.9
++      these
+ 
+   exposed-modules:
+     Foreign.JavaScript.TH

@@ -1,0 +1,30 @@
+diff --git a/reflex.cabal b/reflex.cabal
+index 81459bf..d976b54 100644
+--- a/reflex.cabal
++++ b/reflex.cabal
+@@ -88,12 +88,12 @@ library
+     witherable >= 0.3 && < 0.3.2
+ 
+   if flag(split-these)
+-    build-depends:     these >= 1 && <1.1,
++    build-depends:     these,
+                        semialign >=1 && <1.2,
+-                       monoidal-containers >= 0.6 && < 0.7
++                       monoidal-containers
+   else
+-    build-depends:     these >= 0.4 && <0.9,
+-                       monoidal-containers == 0.4.0.0
++    build-depends:     these,
++                       monoidal-containers
+ 
+   exposed-modules:
+     Control.Monad.ReaderIO
+@@ -171,7 +171,7 @@ library
+     cpp-options: -DUSE_TEMPLATE_HASKELL
+     build-depends:
+       dependent-sum >= 0.6 && < 0.7,
+-      haskell-src-exts >= 1.16 && < 1.23,
++      haskell-src-exts >= 1.16 && < 1.24,
+       haskell-src-meta >= 0.6 && < 0.9,
+       template-haskell >= 2.9 && < 2.16
+     exposed-modules:
