@@ -17,4 +17,4 @@ jobs:
           name: reflex-platform-hls
           signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
       - name: Build
-        run: nix-build haskellPackages.nix -j 2 --option extra-binary-caches https://nixcache.reflex-frp.org:JJiAKaRv9mWgpVAz8dwewnZe0AzzEAzPkagE9SP5NWI=
+        run: nix-build haskellPackages.nix -j 2 --option extra-binary-caches https://nixcache.reflex-frp.org --option trusted-public-keys nixcache.reflex-frp.org:JJiAKaRv9mWgpVAz8dwewnZe0AzzEAzPkagE9SP5NWI=
