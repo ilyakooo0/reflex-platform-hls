@@ -14,7 +14,7 @@ jobs:
           nix_path: nixpkgs=channel:nixos-unstable
       - uses: cachix/cachix-action@v6
         with:
-          name: mycache
+          name: reflex-platform-hls
           signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
       - name: Build
-        run: nix-build haskellPackages.nix -j 2 --option extra-binary-caches https://nixcache.reflex-frp.org
+        run: nix-build haskellPackages.nix -j 2 --option extra-binary-caches https://nixcache.reflex-frp.org:JJiAKaRv9mWgpVAz8dwewnZe0AzzEAzPkagE9SP5NWI=
