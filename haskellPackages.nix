@@ -40,6 +40,7 @@ let
     "__unfix__"
     "_dep"
     "dialog"
+    "hspec-webdriver" # depends on webdriver-utils which is no longer on bitbucket
   ];
 in
 rflx.nixpkgs.lib.attrsets.filterAttrs
