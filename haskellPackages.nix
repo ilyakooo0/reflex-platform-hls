@@ -41,6 +41,7 @@ let
     "_dep"
     "dialog"
     "hspec-webdriver" # depends on webdriver-utils which is no longer on bitbucket
+    "zxcvbn-c" # depends on cplex from IBM
   ];
 in
 rflx.nixpkgs.lib.attrsets.filterAttrs
